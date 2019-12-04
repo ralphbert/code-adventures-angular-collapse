@@ -1,0 +1,21 @@
+.indicator {
+  transition: transform 0.25s;
+}
+
+.open {
+  .indicator {
+    transform: rotate(180deg);
+  }
+}
+
+.collapse-header {
+  > a {
+    background-color: rgba(0, 0, 130, 0.1);
+    padding: 0.5rem;
+  }
+}
+
+:host {
+  display: block;
+  border: 1px solid #eee;
+}

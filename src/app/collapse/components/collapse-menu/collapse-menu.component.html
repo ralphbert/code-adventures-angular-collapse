@@ -1,0 +1,14 @@
+<div [class.open]="open">
+  <header class="collapse-header" *ngIf="!template">
+    <a class="d-flex justify-content-between" href="#" (click)="$event.preventDefault(); toggleCollapse()">
+      {{ title }}
+      <span class="indicator"><i class="fa fa-angle-down"></i></span>
+    </a>
+  </header>
+  <ng-container *ngIf="template">
+    <ng-container *ngTemplateOutlet="template.templateRef; context: { $implicit: open }"></ng-container>
+  </ng-container>
+  <app-collapse [open]="open">
+    <ng-content></ng-content>
+  </app-collapse>
+</div>

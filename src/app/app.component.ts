@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'collapse';
+  open = true;
+
+  onCollapseChange(open: boolean) {
+    console.log('open', open);
+  }
 }
