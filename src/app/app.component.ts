@@ -7,8 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   open = true;
-
-  onCollapseChange(open: boolean) {
-    console.log('open', open);
-  }
+  showElement = true;
 }

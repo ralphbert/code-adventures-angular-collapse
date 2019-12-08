@@ -14,6 +14,8 @@ Navigate to `http://localhost:4200/`
 
 [Angular Collapse - Part 2](https://youtu.be/JIcE3qP6uB8)
 
+[Angular Collapse - Part 3](https://youtu.be/LeEagljcR94)
+
 Or visit the website:
 
 [Code Adventures](https://www.harrer.io/code-adventures)
